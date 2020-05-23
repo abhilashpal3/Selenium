@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class LaunchBrowser {
 
-	WebDriver InvokeBrowser() {
+	public WebDriver InvokeBrowser() {
 
 		System.setProperty("webdriver.chrome.driver", "D:\\RequiredFiles\\chromedriver.exe");
 
