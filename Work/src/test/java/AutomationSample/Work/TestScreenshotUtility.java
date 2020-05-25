@@ -1,8 +1,6 @@
 package AutomationSample.Work;
 
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-
 import Utility.LaunchBrowser;
 import Utility.Screenshot;
 
@@ -12,7 +10,7 @@ public class TestScreenshotUtility {
 
 		LaunchBrowser lc = new LaunchBrowser();
 
-		WebDriver driver = lc.InvokeBrowser();
+		WebDriver driver = lc.InvokeChromeBrowser();
 
 		Screenshot screenshotUtility = new Screenshot();
 		screenshotUtility.takeSnapShot(driver, "Sample");
